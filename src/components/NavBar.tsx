@@ -20,8 +20,8 @@ export default function NavBarSection() {
   return (
     <Navbar fluid rounded theme={customTheme}>
       <Navbar.Brand>
-        <img src="https://flowbite.com/images/logo.svg" className="mr-3 h-10 sm:h-10" alt="Logo" />
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">{companyName}</span>
+        <img src="/logo.JPG" className="mr-3 h-10 sm:h-10" alt="Logo" />
+        {/*<span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">{companyName}</span> */}
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
