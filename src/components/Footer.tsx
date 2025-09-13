@@ -1,9 +1,9 @@
 export default function FooterSection() {
   const companyName: string = import.meta.env.VITE_COMPANY_NAME!;
   return (
-    <footer className="bg-blue-900 text-white py-12">
+    <footer className="bg-[#101860] text-white py-12">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img src="/logo.JPG" alt="Logo - SabaServices" className="w-14" />
@@ -25,9 +25,16 @@ export default function FooterSection() {
             <h4 className="text-lg font-bold mb-4">BEDRIJFSGEGEVENS</h4>
             <div className="space-y-2 text-gray-300">
               <p>BTW: BE0673.814.359</p>
-              <p className="text-orange-500 font-bold">
+              <p className="text-[#F37326] font-bold">
                 Bereikbaar: <a href="tel:+32 476 62 31 12">+32 476 62 31 12</a>
               </p>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-bold mb-4">LEGAL</h4>
+            <div className="space-y-2 text-gray-300">
+              <a href="/privacy">Privacy Policy</a>
             </div>
           </div>
         </div>

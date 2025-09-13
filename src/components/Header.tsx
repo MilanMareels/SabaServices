@@ -13,14 +13,14 @@ export default function Header() {
             <h1 className="text-5xl font-bold mb-6 tracking-tight">
               PROFESSIONELE HORECA
               <br />
-              <span className="text-orange-500">DAMPKAPPEN & ELEKTRICITEITS WERKEN</span>
+              <span className="text-[#F37326]">DAMPKAPPEN & ELEKTRICITEITS WERKEN</span>
             </h1>
             <p className="text-xl mb-8 opacity-90 leading-relaxed">Specialist in horeca dampkappen en depannage service. Militaire precisie, betrouwbare kwaliteit.</p>
             <div className="flex space-x-4">
-              <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded rounded-button font-bold text-lg transition-colors cursor-pointer whitespace-nowrap">
+              <button className="bg-[#F37326] hover:bg-[#F37326] text-white px-8 py-4 rounded rounded-button font-bold text-lg transition-colors cursor-pointer whitespace-nowrap">
                 <a href="#contact">DIRECT CONTACT</a>
               </button>
-              <button className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded rounded-button font-bold text-lg transition-colors cursor-pointer whitespace-nowrap">
+              <button className="border-2 border-white text-white hover:bg-white hover:text-[#101860] px-8 py-4 rounded rounded-button font-bold text-lg transition-colors cursor-pointer whitespace-nowrap">
                 <a href="tel:+32 476 62 31 12">NOODGEVAL</a>
               </button>
             </div>
