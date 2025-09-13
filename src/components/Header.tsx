@@ -1,13 +1,7 @@
 export default function Header() {
   return (
     <header>
-      <section
-        className="relative h-screen bg-cover bg-center bg-no-repeat flex items-center"
-        style={{
-          backgroundImage:
-            "linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), url(https://readdy.ai/api/search-image?query=professional%20kitchen%20exhaust%20hood%20installation%20in%20commercial%20restaurant%20setting%20with%20modern%20stainless%20steel%20equipment%20clean%20industrial%20background%20professional%20lighting&width=1440&height=1024&seq=hero001&orientation=landscape)",
-        }}
-      >
+      <section className="relative h-screen bg-cover bg-center bg-no-repeat flex items-center" style={{ backgroundColor: "#101860" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-white">
           <div className="max-w-xl md:max-w-2xl lg:max-w-4xl">
             <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-6 tracking-tight nulschock leading-snug">
