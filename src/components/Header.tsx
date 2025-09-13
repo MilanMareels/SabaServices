@@ -1,6 +1,3 @@
-import { Carousel } from "flowbite-react";
-import { headerImages } from "../data/headerImages";
-
 export default function Header() {
   return (
     <header>
@@ -13,21 +10,18 @@ export default function Header() {
       >
         <div className="max-w-7xl mx-auto px-6 text-white">
           <div className="max-w-2xl">
-            <div className="bg-orange-500 inline-block px-4 py-2 rounded rounded-button mb-6">
-              <span className="font-bold text-sm tracking-wider">24/7 DEPANNAGE SERVICE</span>
-            </div>
             <h1 className="text-5xl font-bold mb-6 tracking-tight">
               PROFESSIONELE HORECA
               <br />
-              <span className="text-orange-500">DAMPKAPPEN & ELEKTRO</span>
+              <span className="text-orange-500">DAMPKAPPEN & ELEKTRICITEITS WERKEN</span>
             </h1>
-            <p className="text-xl mb-8 opacity-90 leading-relaxed">Specialist in horeca dampkappen, elektrische installaties en 24/7 depannage service. Militaire precisie, betrouwbare kwaliteit.</p>
+            <p className="text-xl mb-8 opacity-90 leading-relaxed">Specialist in horeca dampkappen en depannage service. Militaire precisie, betrouwbare kwaliteit.</p>
             <div className="flex space-x-4">
               <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded rounded-button font-bold text-lg transition-colors cursor-pointer whitespace-nowrap">
-                DIRECT CONTACT
+                <a href="#contact">DIRECT CONTACT</a>
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded rounded-button font-bold text-lg transition-colors cursor-pointer whitespace-nowrap">
-                NOODGEVAL
+                <a href="tel:+32 476 62 31 12">NOODGEVAL</a>
               </button>
             </div>
           </div>

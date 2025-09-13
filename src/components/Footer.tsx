@@ -1,6 +1,3 @@
-import { Footer } from "flowbite-react";
-import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from "react-icons/bs";
-
 export default function FooterSection() {
   const companyName: string = import.meta.env.VITE_COMPANY_NAME!;
   return (
@@ -12,32 +9,25 @@ export default function FooterSection() {
               <img src="/logo.JPG" alt="Logo - SabaServices" className="w-14" />
               <h3 className="text-xl font-bold tracking-wider">{companyName}</h3>
             </div>
-            <p className="text-gray-300 mb-4">Professionele horeca dampkappen en elektrische diensten met militaire precisie en betrouwbaarheid.</p>
-            <div className="flex space-x-4">
-              <i className="fab fa-facebook text-orange-500 text-xl cursor-pointer"></i>
-              <i className="fab fa-linkedin text-orange-500 text-xl cursor-pointer"></i>
-              <i className="fab fa-instagram text-orange-500 text-xl cursor-pointer"></i>
-            </div>
+            <p className="text-gray-300 mb-4">Professionele horeca-dampkappen, elektriciteitswerken en depannage met militaire precisie en betrouwbaarheid.</p>
           </div>
 
           <div>
             <h4 className="text-lg font-bold mb-4">DIENSTEN</h4>
             <ul className="space-y-2 text-gray-300">
               <li>Horeca Dampkappen</li>
-              <li>Elektrische Installaties</li>
-              <li>24/7 Depannage Service</li>
-              <li>Onderhoud & Reparatie</li>
-              <li>Periodieke Keuringen</li>
+              <li>Elektriciteis werken</li>
+              <li>Depannage Service</li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-lg font-bold mb-4">BEDRIJFSGEGEVENS</h4>
             <div className="space-y-2 text-gray-300">
-              <p>KVK: 12345678</p>
-              <p>BTW: NL123456789B01</p>
-              <p>Verzekerd tot € 2.500.000</p>
-              <p className="text-orange-500 font-bold">24/7 Bereikbaar: 0800 123 456</p>
+              <p>BTW: BE0673.814.359</p>
+              <p className="text-orange-500 font-bold">
+                Bereikbaar: <a href="tel:+32 476 62 31 12">+32 476 62 31 12</a>
+              </p>
             </div>
           </div>
         </div>

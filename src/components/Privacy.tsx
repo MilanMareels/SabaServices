@@ -60,8 +60,8 @@ export default function PrivacyPage() {
                   <li>Bezwaar te maken tegen het gebruik van uw gegevens</li>
                 </ul>
                 Neem contact met ons op via{" "}
-                <a href="mailto:" className="text-blue-600 underline">
-                  email bedrijf
+                <a href="mailto:services.saba@gmail.com" className="text-blue-600 underline">
+                  services.saba@gmail.com
                 </a>{" "}
                 als u gebruik wilt maken van deze rechten.
               </p>
@@ -87,8 +87,8 @@ export default function PrivacyPage() {
                 <ul className="ml-6">
                   <li>
                     E-mail:{" "}
-                    <a href="mailto:" className="text-blue-600 underline">
-                      email bedrijf
+                    <a href="mailto:services.saba@gmail.com" className="text-blue-600 underline">
+                      services.saba@gmail.com
                     </a>
                   </li>
                 </ul>

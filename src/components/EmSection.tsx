@@ -6,9 +6,14 @@ export default function EmSection() {
           <i className="fas fa-exclamation-triangle text-3xl mr-4"></i>
           <h3 className="text-2xl font-bold">NOODGEVAL?</h3>
         </div>
-        <p className="text-lg mb-6">Bij elektrische noodgevallen zijn wij 24/7 bereikbaar voor snelle hulp</p>
+        <p className="text-lg mb-6">Bij noodgevallen zijn we telefonisch bereikbaar voor snelle hulp</p>
         <button className="bg-white text-orange-500 px-8 py-4 rounded rounded-button font-bold text-lg hover:bg-gray-100 transition-colors cursor-pointer whitespace-nowrap">
-          <i className="fas fa-phone mr-2"></i>BEL NU: 0800 123 456
+          <div className="flex items-center gap-2">
+            <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" viewBox="0 0 24 24">
+              <path d="M7.978 4a2.553 2.553 0 0 0-1.926.877C4.233 6.7 3.699 8.751 4.153 10.814c.44 1.995 1.778 3.893 3.456 5.572 1.68 1.679 3.577 3.018 5.57 3.459 2.062.456 4.115-.073 5.94-1.885a2.556 2.556 0 0 0 .001-3.861l-1.21-1.21a2.689 2.689 0 0 0-3.802 0l-.617.618a.806.806 0 0 1-1.14 0l-1.854-1.855a.807.807 0 0 1 0-1.14l.618-.62a2.692 2.692 0 0 0 0-3.803l-1.21-1.211A2.555 2.555 0 0 0 7.978 4Z" />
+            </svg>
+            <a href="tel:+32 476 62 31 12">BEL NU: +32 476 62 31 12</a>
+          </div>
         </button>
       </div>
     </div>
