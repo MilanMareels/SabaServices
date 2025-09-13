@@ -1,6 +1,4 @@
 import { useCookies } from "react-cookie";
-import AboutUsSection from "../components/AboutUsSection";
-import ContactButton from "../components/ContactButton";
 import ContactForm from "../components/ContactForm";
 import CookieConsent from "../components/cookie/CookieConsent";
 import Header from "../components/Header";
@@ -14,9 +12,7 @@ export default function Page() {
     <main>
       <SEO />
       <Header />
-      <ContactButton />
       <ServiceSection />
-      <AboutUsSection />
       <ContactForm />
       <ScrollToTopButton />
       {!cookies.cookieContent && <CookieConsent />}
