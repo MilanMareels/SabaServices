@@ -7,14 +7,14 @@ export default function Header() {
             <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-6 tracking-tight nulschock leading-snug">
               PROFESSIONELE HORECA
               <br />
-              <span className="text-[#F37326]">DAMPKAPPEN & ELEKTRICITEITS WERKEN</span>
+              <span className="text-[#FF5500]">DAMPKAPPEN & ELEKTRICITEITS WERKEN</span>
             </h1>
 
             <p className="mb-8 opacity-90 leading-relaxed nulschock text-xs sm:text-sm md:text-base">
               Specialist in horeca dampkappen en depannage service. Militaire precisie, betrouwbare kwaliteit.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#contact" className="bg-[#F37326] hover:bg-[#d85e17] text-white px-6 py-3 sm:px-8 sm:py-4 rounded font-bold text-sm transition-colors text-center nulschock">
+              <a href="#contact" className="bg-[#FF5500] hover:bg-[#FF5500] text-white px-6 py-3 sm:px-8 sm:py-4 rounded font-bold text-sm transition-colors text-center nulschock">
                 DIRECT CONTACT
               </a>
               <a

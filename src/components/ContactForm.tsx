@@ -161,7 +161,7 @@ export default function ContactForm() {
 
               <button
                 type="submit"
-                className="w-full bg-[#F37326] hover:bg-[#F37326] text-white py-4 rounded rounded-button font-bold text-sm transition-colors cursor-pointer whitespace-nowrap nulschock"
+                className="w-full bg-[#FF5500] hover:bg-[#FF5500] text-white py-4 rounded rounded-button font-bold text-sm transition-colors cursor-pointer whitespace-nowrap nulschock"
               >
                 VERSTUUR BERICHT
               </button>
@@ -173,7 +173,7 @@ export default function ContactForm() {
             <div>
               <h3 className="text-xl font-bold text-[#101860] mb-6 nulschock">CONTACTGEGEVENS</h3>
 
-              <div className="bg-[#F37326] text-white p-6 rounded-lg mb-6">
+              <div className="bg-[#FF5500] text-white p-6 rounded-lg mb-6">
                 <div className="flex items-center mb-3 gap-2">
                   <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
                     <path

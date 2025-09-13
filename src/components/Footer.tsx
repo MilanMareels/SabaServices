@@ -25,7 +25,7 @@ export default function FooterSection() {
             <h4 className="font-bold mb-4 nulschock text-sm">BEDRIJFSGEGEVENS</h4>
             <div className="space-y-2 text-gray-300">
               <p className="nulschock text-sm">BTW: BE0673.814.359</p>
-              <p className="text-[#F37326] font-bold nulschock text-xs">
+              <p className="text-[#FF5500] font-bold nulschock text-xs">
                 Bereikbaar: <a href="tel:+32 476 62 31 12">+32 476 62 31 12</a>
               </p>
             </div>
