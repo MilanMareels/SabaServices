@@ -18,7 +18,7 @@ export default function ServiceSection() {
               <div className="absolute inset-0 bg-[#101860]bg-opacity-50 flex items-center justify-center"></div>
             </div>
             <div className="p-6">
-              <h3 className="text-lg font-bold text-[#101860] mb-3 uppercase nulschock">{i.title}</h3>
+              <h3 className="text-sm font-bold text-[#101860] mb-3 uppercase nulschock truncate">{i.title}</h3>
               <p className="text-gray-600 mb-4">{i.description}</p>
             </div>
           </div>
