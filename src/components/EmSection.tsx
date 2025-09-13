@@ -1,7 +1,7 @@
 export default function EmSection() {
   return (
-    <div className="bg-gray-100 w-full pl-6 pr-6">
-      <div className="mt-16 bg-[#F37326] rounded-lg p-8 text-center text-white">
+    <div className="bg-gray-100 w-full ">
+      <div className="mt-16 bg-[#F37326] rounded-none p-8 text-center text-white">
         <div className="flex items-center justify-center mb-4">
           <i className="fas fa-exclamation-triangle text-3xl mr-4"></i>
           <h3 className="text-2xl font-bold nulschock">NOODGEVAL?</h3>
