@@ -9,7 +9,7 @@ export default function FooterSection() {
               <img src="/logo.JPG" alt="Logo - SabaServices" className="w-14" />
               <h3 className="font-bold tracking-wider nulschock text-sm">{companyName}</h3>
             </div>
-            <p className="text-gray-300 mb-4 nulschock text-xs">Professionele horeca-dampkappen, elektriciteitswerken en depannage met militaire precisie en betrouwbaarheid.</p>
+            <p className="text-gray-300 mb-4 nulschock text-xs">Professionele horeca-dampkappen, elektriciteitswerken en depannage met betrouwbaarheid.</p>
           </div>
 
           <div>

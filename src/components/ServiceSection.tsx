@@ -6,9 +6,7 @@ export default function ServiceSection() {
     <section className="flex justify-center items-center flex-col bg-gray-100 py-20" id="services">
       <div className="text-center mb-16">
         <h2 className="text-3xl font-bold text-[#101860] mb-4 nulschock">ONZE DIENSTEN</h2>
-        <p className="text-sm text-gray-600 max-w-3xl mx-auto nulschock p-4">
-          Gespecialiseerd in professionele horeca-dampkappen, elektriciteitswerken en depannage met militaire precisie en betrouwbaarheid.
-        </p>
+        <p className="text-sm text-gray-600 max-w-3xl mx-auto nulschock p-4">Gespecialiseerd in professionele horeca-dampkappen, elektriciteitswerken en depannage met betrouwbaarheid.</p>
       </div>
       <section className="grid md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 gap-10 p-10 m-auto">
         {serviceItems.map((i, index) => (
