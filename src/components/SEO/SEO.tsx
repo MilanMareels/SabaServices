@@ -7,21 +7,27 @@ const SEO = () => {
     <>
       {/* SEO - Meta Tags */}
       <Helmet>
-        <meta name="description" content="Op zoek naar webdesign in Merksem? Wij maken professionele en betaalbare websites. Contacteer ons vandaag!" />
-        <meta name="keywords" content="webdesign, Merksem, website laten maken, website, website in Merksem, webdesign in merksem, webdesign merksem" />
+        <meta name="description" content="SABA Services — Elektricien in Antwerpen. Gespecialiseerd in depannage (spoed) en kleine elektriciteitswerken. Snelle, betrouwbare service." />
+        <meta name="keywords" content="elektricien Antwerpen, depannage Antwerpen, spoed elektricien, kleine elektriciteitswerken, verlichting herstellen, stroomonderbreking" />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="X-Robots-Tag" content="index, follow, max-image-preview:large" />
+        <link rel="canonical" href="https://www.sabaservices.be" />
 
         {/* Open Graph (Facebook, WhatsApp, LinkedIn) */}
-        <meta property="og:title" content="Lannie" />
-        <meta property="og:description" content="Op zoek naar webdesign in Merksem? Wij maken professionele en betaalbare websites. Contacteer ons vandaag!" />
-        <meta property="og:image" content="/Logo-lannie.png" />
-        <meta property="og:url" content="https://www.lannie.be" />
+        <meta property="og:title" content="SabaServices - Elektricien Antwerpen" />
+        <meta property="og:description" content="SabaServices — Snelle depannage en kleine elektriciteitswerken in Merksem. Bel voor spoedreparaties en kleine installaties." />
+        <meta property="og:image" content="/Logo.JPG" />
+        <meta property="og:url" content="https://www.sabaservices.be" />
         <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_BE" />
+        <meta property="og:site_name" content="SABA Services" />
 
         {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Lannie" />
-        <meta name="twitter:description" content="Op zoek naar webdesign in Merksem? Wij maken professionele en betaalbare websites. Contacteer ons vandaag!" />
-        <meta name="twitter:image" content="/Logo-lannie.png" />
+        <meta name="twitter:card" content="/Logo.JPG" />
+        <meta name="twitter:title" content="SABA Services - Antwerpen" />
+        <meta name="twitter:description" content="Snelle depannage en kleine elektriciteitswerken in Merksem. Bel ons voor spoedinterventies!" />
+        <meta name="twitter:image" content="/Logo.JPG" />
+        <meta name="twitter:site" content="SABA Services" />
       </Helmet>
 
       {/* Structured Data - Bedrijfsinformatie */}
@@ -29,15 +35,23 @@ const SEO = () => {
         item={{
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: "Lannie",
-          description: "Professioneel webdesign en websiteontwikkeling in Merksem.",
-          telephone: "+32 489 50 36 61",
-          email: "lanniewebdesign@gmail.com",
-          url: "https://www.lannie.be",
+          name: "SABA Services",
+          description: "Elektricien in Antwerpen, gespecialiseerd in depannage (spoed) en kleine elektriciteitswerken.",
+          telephone: "+32 476 62 31 12",
+          email: "services.saba@gmail.com",
+          url: "https://www.sabaservices.be",
           areaServed: {
             "@type": "Place",
-            name: "Merksem, Antwerpen",
+            name: "Antwerpen",
           },
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Antwerpen",
+            addressRegion: "Antwerpen",
+            addressCountry: "BE",
+          },
+          // Vervang door echte social links indien beschikbaar
+          sameAs: [],
         }}
       />
 
@@ -46,14 +60,14 @@ const SEO = () => {
         item={{
           "@context": "https://schema.org",
           "@type": "Service",
-          name: "Webdesign & Websiteontwikkeling",
-          description: "Wij bouwen snelle, gebruiksvriendelijke en professionele websites.",
+          name: "Depannage, Kleine Elektriciteitswerken & Depanage",
+          description: "Snelle depannage (spoedreparaties) en kleine elektriciteitswerken: vervanging van groepen, foutzoeken, verlichting, kortsluitingen en kleine herstellingen.",
           provider: {
             "@type": "LocalBusiness",
-            name: "Lannie",
+            name: "SABA Services",
           },
-          serviceType: "Website Development",
-          areaServed: "Merksem, Antwerpen",
+          serviceType: "Depannage; Kleine elektriciteitswerken; Spoedservice; Reparaties en vervanging van verlichting",
+          areaServed: "Antwerpen",
         }}
       />
 
@@ -62,12 +76,12 @@ const SEO = () => {
         item={{
           "@context": "https://schema.org",
           "@type": "ContactPoint",
-          name: "Lannie",
-          contactType: "sales",
-          description: "Neem contact op voor een gratis offerte of een vrijblijvend informatief gesprek over webdesign en websiteontwikkeling.",
-          telephone: "+32 489 50 36 61",
-          email: "lanniewebdesign@gmail.com",
-          areaServed: "Merksem, Antwerpen",
+          name: "SABA Services - Klantenservice",
+          contactType: "customer service",
+          description: "Contacteer ons voor depannage, spoedinterventies en kleine elektriciteitswerken in Merksem.",
+          telephone: "+32 476 62 31 12",
+          email: "services.saba@gmail.com",
+          areaServed: "Antwerpen",
           availableLanguage: ["Dutch", "English"],
         }}
       />

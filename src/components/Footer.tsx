@@ -41,7 +41,7 @@ export default function FooterSection() {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
           <a href="https://www.lannie.be">
-            <p>&copy; {new Date().getFullYear()} SabaServices. Ontworpen en ontwikkeld door Lannie</p>
+            <p>&copy; {new Date().getFullYear()} SABA Services. Ontworpen en ontwikkeld door Lannie</p>
           </a>
         </div>
       </div>
