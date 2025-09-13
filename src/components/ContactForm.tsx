@@ -91,75 +91,78 @@ export default function ContactForm() {
     <section className="py-20 bg-white" id="contact">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-[#101860] mb-4">CONTACT</h2>
-          <p className="text-xl text-gray-600">Neem contact op voor een vrijblijvende offerte of bij noodgevallen</p>
+          <h2 className="text-3xl font-bold text-[#101860] mb-4 nulschock">CONTACT</h2>
+          <p className="text-sm text-gray-600 nulschock">Neem contact op voor een vrijblijvende offerte of bij noodgevallen</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
           <div className="bg-gray-50 p-8 rounded-lg">
-            <h3 className="text-2xl font-bold text-[#101860] mb-6">STUUR EEN BERICHT</h3>
+            <h3 className="text-xl font-bold text-[#101860] mb-6 nulschock">STUUR EEN BERICHT</h3>
             <form className="space-y-6" onSubmit={onSubmit}>
               <div>
-                <label className="block text-sm font-bold text-[#101860] mb-2">NAAM *</label>
+                <label className="block text-sm font-bold text-[#101860] mb-2 nulschock">NAAM *</label>
                 <input
                   type="text"
                   name="naam"
                   value={formData.naam}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded rounded-button focus:outline-none focus:border-orange-500 text-sm"
+                  className="w-full px-4 py-3 border border-gray-300 rounded rounded-button focus:outline-none focus:border-orange-500 text-xs nulschock"
                   placeholder="Uw volledige naam"
                   required
                 />
               </div>
               <div>
-                <label className="block text-sm font-bold text-[#101860] mb-2">TELEFOON *</label>
+                <label className="block text-sm font-bold text-[#101860] mb-2 nulschock">TELEFOON *</label>
                 <input
                   type="tel"
                   name="telefoon"
                   value={formData.telefoon}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded rounded-button focus:outline-none focus:border-orange-500 text-sm"
+                  className="w-full px-4 py-3 border border-gray-300 rounded rounded-button focus:outline-none focus:border-orange-500 text-xs nulschock"
                   placeholder="04 12 34 56 78"
                   required
                 />
               </div>
               <div>
-                <label className="block text-sm font-bold text-[#101860] mb-2">EMAIL *</label>
+                <label className="block text-sm font-bold text-[#101860] mb-2 nulschock">EMAIL *</label>
                 <input
                   type="email"
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded rounded-button focus:outline-none focus:border-orange-500 text-sm"
+                  className="w-full px-4 py-3 border border-gray-300 rounded rounded-button focus:outline-none focus:border-orange-500 text-xs nulschock"
                   placeholder="uw.email@voorbeeld..be"
                   required
                 />
               </div>
               <div>
-                <label className="block text-sm font-bold text-[#101860] mb-2">BERICHT</label>
+                <label className="block text-sm font-bold text-[#101860] mb-2 nulschock">BERICHT</label>
                 <textarea
                   name="bericht"
                   rows={5}
                   value={formData.bericht}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded rounded-button focus:outline-none focus:border-orange-500 text-sm resize-none"
+                  className="w-full px-4 py-3 border border-gray-300 rounded rounded-button focus:outline-none focus:border-orange-500 text-xs resize-none nulschock"
                   placeholder="Beschrijf uw vraag of het probleem..."
                 ></textarea>
               </div>
 
-              <div className="flex items-center mt-4">
+              <div className="flex items-center mt-4 nulschock">
                 <input type="checkbox" id="acceptTerms" name="acceptTerms" checked={accept} onChange={() => setAccept(!accept)} className="mr-2" />
-                <label htmlFor="acceptTerms" className="text-sm text-gray-700">
+                <label htmlFor="acceptTerms" className="text-xs text-gray-700">
                   Ik ga akkoord met de{" "}
-                  <a href="/privacy" className="text-[#101860] hover:underline">
+                  <a href="/privacy" className="text-[#101860] hover:underline text-xs">
                     voorwaarden
                   </a>{" "}
                   en begrijp dat ik het bericht niet kan verzenden zonder mijn toestemming.
                 </label>
               </div>
 
-              <button type="submit" className="w-full bg-[#F37326] hover:bg-[#F37326] text-white py-4 rounded rounded-button font-bold text-lg transition-colors cursor-pointer whitespace-nowrap">
+              <button
+                type="submit"
+                className="w-full bg-[#F37326] hover:bg-[#F37326] text-white py-4 rounded rounded-button font-bold text-sm transition-colors cursor-pointer whitespace-nowrap nulschock"
+              >
                 VERSTUUR BERICHT
               </button>
             </form>
@@ -168,7 +171,7 @@ export default function ContactForm() {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-[#101860] mb-6">CONTACTGEGEVENS</h3>
+              <h3 className="text-xl font-bold text-[#101860] mb-6 nulschock">CONTACTGEGEVENS</h3>
 
               <div className="bg-[#F37326] text-white p-6 rounded-lg mb-6">
                 <div className="flex items-center mb-3 gap-2">
@@ -180,9 +183,9 @@ export default function ContactForm() {
                     />
                   </svg>
 
-                  <h4 className="text-xl font-bold">NOODGEVALLEN</h4>
+                  <h4 className="text-lg font-bold nulschock">NOODGEVALLEN</h4>
                 </div>
-                <p className="text-lg font-bold">
+                <p className="text-sm font-bold nulschock">
                   <a href="tel:+32 476 62 31 12">+32 476 62 31 12</a>
                 </p>
               </div>
@@ -195,8 +198,8 @@ export default function ContactForm() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-bold text-[#101860]">Telefoon</p>
-                    <a href="tel:+32 476 62 31 12" className="text-gray-600">
+                    <p className="font-bold text-[#101860] nulschock text-sm">Telefoon</p>
+                    <a href="tel:+32 476 62 31 12" className="text-gray-600 nulschock text-xs">
                       +32 476 62 31 12
                     </a>
                   </div>
@@ -210,8 +213,8 @@ export default function ContactForm() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-bold text-[#101860]">Email</p>
-                    <a href="mailto:services.saba@gmail.com" className="text-gray-600">
+                    <p className="font-bold text-[#101860] nulschock text-sm">Email</p>
+                    <a href="mailto:services.saba@gmail.com" className="text-gray-600 nulschock text-xs">
                       services.saba@gmail.com
                     </a>
                   </div>

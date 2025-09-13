@@ -5,8 +5,10 @@ export default function ServiceSection() {
   return (
     <section className="flex justify-center items-center flex-col bg-gray-100 py-20" id="services">
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold text-[#101860] mb-4">ONZE DIENSTEN</h2>
-        <p className="text-xl text-gray-600 max-w-3xl mx-auto">Gespecialiseerd in professionele horeca-dampkappen, elektriciteitswerken en depannage met militaire precisie en betrouwbaarheid.</p>
+        <h2 className="text-3xl font-bold text-[#101860] mb-4 nulschock">ONZE DIENSTEN</h2>
+        <p className="text-sm text-gray-600 max-w-3xl mx-auto nulschock">
+          Gespecialiseerd in professionele horeca-dampkappen, elektriciteitswerken en depannage met militaire precisie en betrouwbaarheid.
+        </p>
       </div>
       <section className="grid md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 gap-10 p-10 m-auto">
         {serviceItems.map((i, index) => (
@@ -16,7 +18,7 @@ export default function ServiceSection() {
               <div className="absolute inset-0 bg-[#101860]bg-opacity-50 flex items-center justify-center"></div>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-[#101860] mb-3 uppercase">{i.title}</h3>
+              <h3 className="text-lg font-bold text-[#101860] mb-3 uppercase nulschock">{i.title}</h3>
               <p className="text-gray-600 mb-4">{i.description}</p>
             </div>
           </div>

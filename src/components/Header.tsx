@@ -10,17 +10,17 @@ export default function Header() {
       >
         <div className="max-w-7xl mx-auto px-6 text-white">
           <div className="max-w-2xl">
-            <h1 className="text-5xl font-bold mb-6 tracking-tight">
+            <h1 className="text-4xl font-bold mb-6 tracking-tight nulschock">
               PROFESSIONELE HORECA
               <br />
               <span className="text-[#F37326]">DAMPKAPPEN & ELEKTRICITEITS WERKEN</span>
             </h1>
-            <p className="text-xl mb-8 opacity-90 leading-relaxed">Specialist in horeca dampkappen en depannage service. Militaire precisie, betrouwbare kwaliteit.</p>
+            <p className="mb-8 opacity-90 leading-relaxed nulschock text-sm">Specialist in horeca dampkappen en depannage service. Militaire precisie, betrouwbare kwaliteit.</p>
             <div className="flex space-x-4">
-              <button className="bg-[#F37326] hover:bg-[#F37326] text-white px-8 py-4 rounded rounded-button font-bold text-lg transition-colors cursor-pointer whitespace-nowrap">
+              <button className="bg-[#F37326] hover:bg-[#F37326] text-white px-8 py-4 rounded rounded-button font-bold text-sm transition-colors cursor-pointer whitespace-nowrap nulschock">
                 <a href="#contact">DIRECT CONTACT</a>
               </button>
-              <button className="border-2 border-white text-white hover:bg-white hover:text-[#101860] px-8 py-4 rounded rounded-button font-bold text-lg transition-colors cursor-pointer whitespace-nowrap">
+              <button className="border-2 border-white text-white hover:bg-white hover:text-[#101860] px-8 py-4 rounded rounded-button font-bold text-sm transition-colors cursor-pointer whitespace-nowrap nulschock">
                 <a href="tel:+32 476 62 31 12">NOODGEVAL</a>
               </button>
             </div>

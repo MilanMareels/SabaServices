@@ -5,3 +5,12 @@
 html {
   scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: nulschock;
+  src: url(/Nulshock Bd.otf);
+}
+
+.nulschock {
+  font-family: nulschock;
+}
