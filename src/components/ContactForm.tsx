@@ -132,7 +132,7 @@ export default function ContactForm() {
                   value={formData.email}
                   onChange={handleInputChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded rounded-button focus:outline-none focus:border-orange-500 text-xs nulschock"
-                  placeholder="uw.email@voorbeeld..be"
+                  placeholder="uw.email@voorbeeld.be"
                   required
                 />
               </div>
