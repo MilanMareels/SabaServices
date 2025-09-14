@@ -8,14 +8,14 @@ const SEO = () => {
       {/* SEO - Meta Tags */}
       <Helmet>
         <meta name="description" content="SABA Services — Elektricien in Antwerpen. Gespecialiseerd in depannage (spoed) en kleine elektriciteitswerken. Snelle, betrouwbare service." />
-        <meta name="keywords" content="elektricien Antwerpen, depannage Antwerpen, spoed elektricien, kleine elektriciteitswerken, verlichting herstellen, stroomonderbreking" />
+        <meta name="keywords" content="elektricien Antwerpen, depannage Antwerpen, spoed elektricien, kleine elektriciteitswerken, stroomonderbreking" />
         <meta name="robots" content="index, follow" />
         <meta http-equiv="X-Robots-Tag" content="index, follow, max-image-preview:large" />
         <link rel="canonical" href="https://www.sabaservices.be" />
 
         {/* Open Graph (Facebook, WhatsApp, LinkedIn) */}
-        <meta property="og:title" content="SabaServices - Elektricien Antwerpen" />
-        <meta property="og:description" content="SabaServices — Snelle depannage en kleine elektriciteitswerken in Merksem. Bel voor spoedreparaties en kleine installaties." />
+        <meta property="og:title" content="SABA Services - Elektricien Antwerpen" />
+        <meta property="og:description" content="SabaServices — Snelle depannage en kleine elektriciteitswerken in Antwerpen. Bel voor spoedreparaties en kleine installaties." />
         <meta property="og:image" content="/Logo.JPG" />
         <meta property="og:url" content="https://www.sabaservices.be" />
         <meta property="og:type" content="website" />
@@ -25,7 +25,7 @@ const SEO = () => {
         {/* Twitter Card */}
         <meta name="twitter:card" content="/Logo.JPG" />
         <meta name="twitter:title" content="SABA Services - Antwerpen" />
-        <meta name="twitter:description" content="Snelle depannage en kleine elektriciteitswerken in Merksem. Bel ons voor spoedinterventies!" />
+        <meta name="twitter:description" content="Snelle depannage en kleine elektriciteitswerken in Antwerpen. Bel ons voor spoedinterventies!" />
         <meta name="twitter:image" content="/Logo.JPG" />
         <meta name="twitter:site" content="SABA Services" />
       </Helmet>
@@ -60,13 +60,13 @@ const SEO = () => {
         item={{
           "@context": "https://schema.org",
           "@type": "Service",
-          name: "Depannage, Kleine Elektriciteitswerken & Depanage",
-          description: "Snelle depannage (spoedreparaties) en kleine elektriciteitswerken: vervanging van groepen, foutzoeken, verlichting, kortsluitingen en kleine herstellingen.",
+          name: "Kleine Elektriciteitswerken & Depanage",
+          description: "Snelle depannage (spoedreparaties) en kleine elektriciteitswerken: kortsluitingen en kleine herstellingen.",
           provider: {
             "@type": "LocalBusiness",
             name: "SABA Services",
           },
-          serviceType: "Depannage; Kleine elektriciteitswerken; Spoedservice; Reparaties en vervanging van verlichting",
+          serviceType: "Depannage; Kleine elektriciteitswerken; Spoedservice; Reparaties",
           areaServed: "Antwerpen",
         }}
       />
@@ -78,7 +78,7 @@ const SEO = () => {
           "@type": "ContactPoint",
           name: "SABA Services - Klantenservice",
           contactType: "customer service",
-          description: "Contacteer ons voor depannage, spoedinterventies en kleine elektriciteitswerken in Merksem.",
+          description: "Contacteer ons voor depannage, spoedinterventies en kleine elektriciteitswerken in Antwerpen.",
           telephone: "+32 476 62 31 12",
           email: "services.saba@gmail.com",
           areaServed: "Antwerpen",
