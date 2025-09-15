@@ -50,8 +50,6 @@ const SEO = () => {
             addressRegion: "Antwerpen",
             addressCountry: "BE",
           },
-          // Vervang door echte social links indien beschikbaar
-          sameAs: [],
         }}
       />
 
