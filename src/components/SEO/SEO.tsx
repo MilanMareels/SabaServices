@@ -7,10 +7,7 @@ const SEO = () => {
     <>
       {/* SEO - Meta Tags */}
       <Helmet>
-        <meta
-          name="description"
-          content="SABA Services — Elektricien in Antwerpen. Gespecialiseerd in depannage (spoed), kleine elektriciteitswerken en installatie van Horica dampkappen. Snelle, betrouwbare service."
-        />
+        <meta name="description" content="SABA Services — Gespecialiseerd in depannage (spoed), kleine elektriciteitswerken en installatie van Horica dampkappen. Snelle, betrouwbare service." />
         <meta name="keywords" content="elektricien Antwerpen, depannage Antwerpen, spoed elektricien, kleine elektriciteitswerken, stroomonderbreking" />
         <meta name="robots" content="index, follow" />
         <meta http-equiv="X-Robots-Tag" content="index, follow, max-image-preview:large" />
