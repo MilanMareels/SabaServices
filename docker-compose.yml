@@ -1,0 +1,12 @@
+services:
+  react-website:
+    build:
+      context: .
+      args:
+        - VITE_COMPANY_NAME=${VITE_COMPANY_NAME}
+        - VITE_CONTACT_FORM_KEY=${VITE_CONTACT_FORM_KEY}
+        - VITE_KLANT_ID=${VITE_KLANT_ID}
+    container_name: website-saba-services
+    restart: unless-stopped
+    ports:
+      - "3005:80"
